@@ -2,16 +2,24 @@
 > In statistics, missing data, or missing values, occur when no data value is stored for the variable in an observation ([Wiki](https://en.wikipedia.org/wiki/Missing_data))
 
 - **Overview**
-  - [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/) (2018) *Stef van Buuren*  
-    A free book on data imputation by the author of [mice](https://stefvanbuuren.name/mice/) package
+  - A free book on data imputation by the author of [mice](https://stefvanbuuren.name/mice/) package:  
+    [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/) (2018) *Stef van Buuren*
 
 ### Imputation methods
 - **Listwise deletion**
-  - Remove samples (rows) if they have missing values. Probably the most simple and popular approach
+  - Samples (rows) are removed from a dataset if they have missing values. Probably the most simple and popular approach. 
 - **Mean/Mode Replacement**
   - Replace with missing values with variable (column) mean, mode or median
-- **LOCF** Last Observation Carried Forward imputation
+- **LOCF** Last Observation Carried Forward imputation ([Wiki](https://en.wikipedia.org/wiki/Analysis_of_clinical_trials#Last_observation_carried_forward))
+  - In time-series data the last observed value before a missing one is "carried forward" to fill in the blank points
+  - [Does analysis using “last observation carried forward” introduce bias in dementia research?]() *Frank J. Molnar, Brian Hutton, Dean Fergusson*
 - **Regression Imputation**
+  - A regression model is created on a variable with missing values, then used to predict blank points
+  - Deterministic regression imputation uses the original prediction of the regression model to impute missing values
+  - Stochastic regression imputation adds random error
+  - Article about the regression imputation method with examples:  
+    [Regression Imputation (Stochastic vs. Deterministic & R Example)](https://statisticsglobe.com/regression-imputation-stochastic-vs-deterministic/) *Statistics Globe*
+
 - **Hot-deck Imputation**
   - [A Review of Hot Deck Imputation for Survey Non-response](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3130338/) (2010) *Rebecca R. Andridge, Roderick J. A. Little*
 - **KNN** k-Nearest Neighbors
