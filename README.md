@@ -5,6 +5,8 @@
   - A free book on data imputation by the author of [mice](https://stefvanbuuren.name/mice/) package:  
     [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/) (2018) *Stef van Buuren*
   - [Missing-data imputation](www.stat.columbia.edu/~gelman/arm/missing.pdf)(Ch. 25) of [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) (2006) ' *Andrew Gelman, Jennifer Hill*
+  - [Missing Data: Our View of the State of the Art](https://stat.ethz.ch/education/semesters/ss2013/ams/paper/missing_data_1.pdf) (2002) *Joseph L. Schafer, John W. Graham*
+  - [A Review of Methods for Missing Data](https://galton.uchicago.edu/~eichler/stat24600/Admin/MissingDataReview.pdf) (2001) *Therese D. Pigott*
 
 ### Types of missing data ([Wiki](https://en.wikipedia.org/wiki/Missing_data#Types))
   - Missed completely at random
@@ -63,6 +65,7 @@
 - **Optimal Transport** ([Code](https://github.com/BorisMuzellec/MissingDataOT))
   - [Missing Data Imputation using Optimal Transport](https://arxiv.org/abs/2002.03860) (2020) *Boris Muzellec, Julie Josse, Claire Boyer, Marco Cuturi*
 - **Autoencoders**
+  - [Missing data imputation in the electronic health record using deeply learned autoencoders](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5144587/pdf/nihms831925.pdf) *Brett K. Beaulieu-Jones, Jason H. Moore*
 
 ### Other methods, packages
 - **MIDAS** Multiple Imputation with Denoising Autoencoders ([Code](https://github.com/Oracen/MIDAS))
