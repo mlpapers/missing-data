@@ -6,7 +6,7 @@
     [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/) (2018) *Stef van Buuren*
   - [Missing-data imputation](www.stat.columbia.edu/~gelman/arm/missing.pdf)(Ch. 25) of [Data Analysis Using Regression and Multilevel/Hierarchical Models](http://www.stat.columbia.edu/~gelman/arm/) (2006) ' *Andrew Gelman, Jennifer Hill*
 
-### Types of missing data
+### Types of missing data ([Wiki](https://en.wikipedia.org/wiki/Missing_data#Types))
   - Missed completely at random
   - Missed at random
   - Missed data that depends on unobserved variables
@@ -21,7 +21,8 @@
   - Excluding variables from data if their missing-values rate is lower than some threshold
 
 ### Imputation ([Wiki](https://en.wikipedia.org/wiki/Imputation_(statistics)))
-> Whenever a single imputation strategy is used, the standard errors of estimates tend to be too low. The intuition here is that we have substantial uncertainty about the missing values, but by choosing a single imputation we inessence pretend that we know the true value with certainty. ([Data Analysis Using Regression and Multilevel/Hierarchical Models](www.stat.columbia.edu/~gelman/arm/missing.pdf))
+> Whenever a single imputation strategy is used, the standard errors of estimates tend to be too low. The intuition here is that we have substantial uncertainty about the missing values, but by choosing a single imputation we inessence pretend that we know the true value with certainty ([Data Analysis Using Regression and Multilevel/Hierarchical Models](www.stat.columbia.edu/~gelman/arm/missing.pdf))
+
 - **Mean/Mode Replacement**
   - Replaces missing values with a variable (column) mean, mode or median
   - Distorts a probability distribution of an imputed variable
