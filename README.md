@@ -59,6 +59,9 @@
   - [Multiple Imputation for Nonresponse in Surveys](https://www.onlinelibrary.wiley.com/doi/pdf/10.1002/9780470316696.fmatter) (1987) *Donald B. Rubin*
   - [Analyzing Incomplete Political Science Data: An Alternative Algorithm forMultiple Imputation] (2001) *Gary King, James Honaker, Anne Joseph, Kenneth Scheve*
 - **MICE** Multivariate Imputation by Chained Equations ([Homepage](https://stefvanbuuren.name/mice/), [Code](https://github.com/stefvanbuuren/mice), [CRAN](https://cran.r-project.org/web/packages/mice/))
+  - [A Multivariate Technique for Multiply Imputing Missing Values Using a Sequence of Regression Models](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.405.4540) (2001) *Trivellore E. Raghunathan, James M. Lepkowski, John Van Hoewyk, Peter Solenberger*
+  - [Multiple imputation of discrete and continuousdata by fully conditional specification](https://stefvanbuuren.name/publications/MI%20by%20FCS%20-%20SMMR%202007.pdf) (2007) *Stef van Buuren*
+  - [Multiple imputation by chained equations: what is it and how does it work?](https://onlinelibrary.wiley.com/doi/epdf/10.1002/mpr.329) (2011) *Melissa J. Azur, Elizabeth A. Stuart, Constantine Frangakis, Philip J. Leaf*
   - [mice: Multivariate Imputation by Chained Equations in R](https://www.jstatsoft.org/article/view/v045i03) (2011) *Stef van Buuren, Karin Groothuis-Oudshoorn*
 - **MissForest** ([Code](https://github.com/stekhoven/missForest), [CRAN](https://cran.r-project.org/web/packages/missForest/))
   - [MissForest - nonparametric missing value imputation for mixed-type data](https://stat.ethz.ch/Manuscripts/buhlmann/missforest-advacc.pdf) (2011) *Daniel J.Stekhoven, Peter Buhlmann*
@@ -66,7 +69,11 @@
   - [Missing Data Imputation using Optimal Transport](https://arxiv.org/abs/2002.03860) (2020) *Boris Muzellec, Julie Josse, Claire Boyer, Marco Cuturi*
 - **Autoencoders**
   - [Missing data imputation in the electronic health record using deeply learned autoencoders](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5144587/pdf/nihms831925.pdf) *Brett K. Beaulieu-Jones, Jason H. Moore*
+  - [Multiple Imputation for Biomedical Datausing Monte Carlo Dropout Autoencoders](https://arxiv.org/pdf/2005.06173.pdf) (2020) *Kristian Miok, Dong Nguyen-Doan, Marko Robnik-Šikonja, Daniela Zaharie*
+- **GAIN** Missing data imputation with GANs
+  - [GAIN: Missing Data Imputation using Generative Adversarial Nets](https://arxiv.org/pdf/1806.02920.pdf) (2018) *insung Yoon, James Jordon, Mihaela van der Schaar*
+
 
 ### Other methods, packages
-- **MIDAS** Multiple Imputation with Denoising Autoencoders ([Code](https://github.com/Oracen/MIDAS))
+- **MIDAS** Multiple Imputation with Denoising Autoencoders ([Code](https://github.com/Oracen/MIDAS), [Paper](https://arxiv.org/pdf/1705.02737.pdf))
 - **Impute.jl** ([Code](https://github.com/invenia/Impute.jl))
