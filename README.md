@@ -73,6 +73,13 @@
 - **GAIN** Missing data imputation with GANs
   - [GAIN: Missing Data Imputation using Generative Adversarial Nets](https://arxiv.org/pdf/1806.02920.pdf) (2018) *insung Yoon, James Jordon, Mihaela van der Schaar*
 
+### Timeseries imputation
+- **RNNs**
+  - [Modeling Missing Data in Clinical Time Series with RNNs](http://proceedings.mlr.press/v56/Lipton16.pdf) (2016) *Zachary C. Lipton, David C. Kale, Randall Wetzel*
+  - [Estimating Missing Data in Temporal Data Streams Using Multi-directional Recurrent Neural Networks](https://arxiv.org/abs/1711.08742) (2017) *Jinsung Yoon, William R. Zame, Mihaela van der Schaar*
+  - [BRITS: Bidirectional Recurrent Imputation for Time Series](https://papers.nips.cc/paper/7911-brits-bidirectional-recurrent-imputation-for-time-series.pdf) (2018) *Wei Cao, Dong Wang, Jian Li, Hao Zhou, Yitan Li, Lei Li*
+- **GPs**
+  - [GP-VAE: Deep Probabilistic Time Series Imputation](https://arxiv.org/pdf/1907.04155.pdf) (2019) *Vincent Fortuin, Dmitry Baranchuk, Gunnar Rätsch, Stephan Mandt*
 
 ### Other methods, packages
 - **MIDAS** Multiple Imputation with Denoising Autoencoders ([Code](https://github.com/Oracen/MIDAS), [Paper](https://arxiv.org/pdf/1705.02737.pdf))
