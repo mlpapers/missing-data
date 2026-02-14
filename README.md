@@ -1,11 +1,3 @@
----
-title: "Missing Data, Data Imputation"
-aliases: ["Data imputation", "Missing values", "Incomplete data"]
-tags:
-  - missing-data
-  - imputation
-  - preprocessing
----
 # Missing Data, Data Imputation
 > In statistics, missing data, or missing values, occur when no data value is stored for the variable in an observation ([Wiki](https://en.wikipedia.org/wiki/Missing_data))
 
