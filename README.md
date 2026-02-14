@@ -1,3 +1,11 @@
+---
+title: "Missing Data, Data Imputation"
+aliases: ["Data imputation", "Missing values", "Incomplete data"]
+tags:
+  - missing-data
+  - imputation
+  - preprocessing
+---
 # Missing Data, Data Imputation
 > In statistics, missing data, or missing values, occur when no data value is stored for the variable in an observation ([Wiki](https://en.wikipedia.org/wiki/Missing_data))
 
@@ -81,6 +89,15 @@
 - **GPs**
   - [GP-VAE: Deep Probabilistic Time Series Imputation](https://arxiv.org/pdf/1907.04155.pdf) (2019) *Vincent Fortuin, Dmitry Baranchuk, Gunnar Rätsch, Stephan Mandt*
 
-### Other methods, packages
-- **MIDAS** Multiple Imputation with Denoising Autoencoders ([Code](https://github.com/Oracen/MIDAS), [Paper](https://arxiv.org/pdf/1705.02737.pdf))
-- **Impute.jl** ([Code](https://github.com/invenia/Impute.jl))
+### Other methods
+
+## Software
+- **Python**
+  - MIDAS ([Code](https://github.com/Oracen/MIDAS), [Paper](https://arxiv.org/pdf/1705.02737.pdf))
+- **Julia**
+  - Impute.jl ([Code](https://github.com/invenia/Impute.jl))
+
+## Related Topics
+- [Bayesian Inference](https://mlpapers.org/bayesian-inference/)
+- [Neural Networks](https://mlpapers.org/neural-nets/)
+- [Models](https://mlpapers.org/models/)
