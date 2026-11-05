@@ -95,4 +95,4 @@
 
 - [Bayesian Inference](https://mlpapers.org/bayesian-inference/)
 - [Neural Networks](https://mlpapers.org/neural-nets/)
-- [Models](https://mlpapers.org/models/)
+- [Modeling](https://mlpapers.org/models/)
