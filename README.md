@@ -14,6 +14,7 @@
 - **Ignorability** - MAR and distinct data/missingness parameters permit ignoring the missingness model in direct-likelihood inference. This does not justify arbitrary deletion or replacement rules. [Rubin 1976](<https://dash.harvard.edu/entities/publication/73120378-8764-6bd4-e053-0100007fdf3b> "Inference and missing data; Biometrika").
 - **MNAR sensitivity analysis** - Delta-adjusted imputation shifts conditional distributions away from MAR through user-specified sensitivity parameters. Vary plausible departures; the observed data alone do not identify those shifts. [docs](<https://amices.org/mice/reference/mice.impute.mnar.html>).
 - **Graphical missing-data recovery** - Uses graphs to express missingness assumptions and derive recoverability and testability conditions, including some MNAR cases. Recovery depends on the graph and target quantity. [Mohan and Pearl 2021](<https://arxiv.org/abs/1801.03583> "Graphical Models for Processing Missing Data; Journal of the American Statistical Association").
+- **Completion-invariant missingness** - Imputing from the true full model preserves the full-data distribution. This condition is weaker than MAR and yields a MAR counterpart with the same observed and full-data laws, preserving inference for identified targets. [Morikawa et al. 2026](<https://arxiv.org/abs/2611.16278v1> "On Ignorability Beyond Missing at Random: Completion-Invariant Missingness for Nonmonotone Missing Data; arXiv").
 
 ## Deletion and Simple Imputation
 
